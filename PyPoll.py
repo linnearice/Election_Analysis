@@ -1,38 +1,37 @@
 # Add our dependencies
 import csv
 import os
-# Assign a variable to load a file from a path.
+# load data
 file_to_load=os.path.join("Resources","election_results.csv")
 
-# Assign a variable to save the file to a path.
+# save data to new file
 file_to_save = os.path.join("analysis", "election_analysis.txt")
-# Initialize a total vote counter.
-total_votes=0
 
-# Candidate options
+total_votes=0
 candidate_options=[]
 candidate_votes={}
 winning_candidate=""
 winning_count=0
 winning_percentage=0
 
-# Open the election results and read the file.
+# Open election_results and read.
 with open(file_to_load) as election_data:
     file_reader=csv.reader(election_data)
-    # Read the header row
+    # declare file_to_load has a header
     headers=next(file_reader)
     
-    # Print each row in the csv file.
+
     for row in file_reader:
         total_votes +=1
 
-        # Print the candidate name from each row.
+        # Load candidate name into list if not already in list.
         candidate_name=row[2]
         if candidate_name not in candidate_options:
                 candidate_options.append(candidate_name)
                 candidate_votes[candidate_name]=0
         candidate_votes[candidate_name] +=1
 
+# Open file_to_save and write to text file
 with open(file_to_save, "w") as txt_file:
     election_results=(
         f"\nElection Results\n"
@@ -43,6 +42,7 @@ with open(file_to_save, "w") as txt_file:
 
     txt_file.write(election_results)
 
+    # Calculate results by candidate
     for candidate_name in candidate_votes:
         votes=candidate_votes[candidate_name]
         vote_percentage=float(votes)/float(total_votes)*100
@@ -50,6 +50,7 @@ with open(file_to_save, "w") as txt_file:
         print(candidate_results)
         txt_file.write(candidate_results)
 
+        # calculate winning results
         if (votes>winning_count) and (vote_percentage>winning_percentage):
             winning_count=votes
             winning_percentage=vote_percentage
@@ -64,17 +65,4 @@ with open(file_to_save, "w") as txt_file:
     print(winning_candidate_summary)
     txt_file.write(winning_candidate_summary)
 
-    # Using the open() function with the "w" mode we will write data to the file.
-    #with open(file_to_save, "w") as txt_file:  
-
-        # Write some data to the file.
-    #   txt_file.write("Counties in the Election\n---------------------\nArapahoe\nDenver\nJefferson")
-
-
-
-
-    #1.  The total number of votes cast
-    #2.  A complete list of candidates who received votes.
-    #3.  The percentage of votes each candidate won
-    #4.  The total number of votes each candidate won
-    #5.  The winner of the election based on popular vote.
+    
