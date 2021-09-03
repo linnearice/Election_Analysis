@@ -2,19 +2,19 @@
 ## Project Overview
 A Colorado Board of Elections employee has given Data Analysis, Inc. ("DAI") the following tasks to complete the election audit of a recent local congressional election.
 
-1.  Calculate the total number of votes cast.
+*   Calculate the total number of votes cast.
     
-    County:
-2.  Get a list of counties in the vote.
-3.  Calculate the percentage of votes for each county.
-4.  Calculate the total votes for each county.
-5.  Determine the county with the largest voter turnout.
+*   By County:
+    *   Get a list of counties in the vote.
+    *   Calculate the percentage of votes for each county.
+    *   Calculate the total votes for each county.
+    *   Determine the county with the largest voter turnout.
     
-    Candidate:
-6.  Get a complete list of candidates who received votes.
-7.  Calculate the total number of votes each candidate received.
-8.  Calculate the percentage of votes each candidate won.
-9.  Determine the winner of the election based on popular vote.
+*   By Candidate:
+    *   Get a complete list of candidates who received votes.
+    *   Calculate the total number of votes each candidate received.
+    *   Calculate the percentage of votes each candidate won.
+    *   Determine the winner of the election based on popular vote.
 
 ## Resources
 - Data Source:  election_results.csv
@@ -48,6 +48,5 @@ The analysis of the election shows that:
     - The winner of the election was:
         - Diane Degette, who received 73.8% of the vote and 272,892 number of votes.
 
-## Challenge Overview
-
-## Challenge Summary
+## Summary
+DAI was able to provide accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  However, DAI wrote the script so that it could easily be applied to other elections with only slight modifications.  The program would need to be changed to bring in the right data file from other election boards and depending on what format the data is provided some small changes to the script may needed so that the data is read from their database.  We would like the election committee to allow for presentations of this program to other election boards.     
