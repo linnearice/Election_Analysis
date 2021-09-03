@@ -5,7 +5,7 @@ A Colorado Board of Elections employee has given Data Analysis, Inc. ("DAI") the
 1.  Calculate the total number of votes cast.
     
     County:
-2.  Get a list of counties participating in the vote.
+2.  Get a list of counties in the vote.
 3.  Calculate the percentage of votes for each county.
 4.  Calculate the total votes for each county.
 5.  Determine the county with the largest voter turnout.
@@ -22,9 +22,10 @@ A Colorado Board of Elections employee has given Data Analysis, Inc. ("DAI") the
 
 ## Summary of Results
 The analysis of the election shows that:
-    **I.  Total Votes**
-        - There were 369,711 total votes cast in the election.
-    **I.  Votes by County**
+
+###Total Votes
+    - There were 369,711 total votes cast in the election.
+###Votes by County
     - The counties were:
         - Jefferson
         - Denver
@@ -35,7 +36,7 @@ The analysis of the election shows that:
         - Arapahoe county received 6.7% of the vote adn 24,801 number of votes.   
     - The largest county turnout was:
         - Denver
-    **III.  Votes by Candidate**        
+###Votes by Candidate        
     - The candidates were:
         - Charles Casper Stockham
         - Diana DeGette
