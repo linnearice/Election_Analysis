@@ -33,7 +33,7 @@ The analysis of the election shows that:
     - The county results were:
         - Jefferson county received 10.5% of the vote and 38,855 number of votes.
         - Denver county received 82.8% of the vote and 306,055 number of votes.
-        - Arapahoe county received 6.7% of the vote adn 24,801 number of votes.   
+        - Arapahoe county received 6.7% of the vote and 24,801 number of votes.   
     - The largest county turnout was:
         - Denver
 ### Votes by Candidate        
@@ -49,8 +49,8 @@ The analysis of the election shows that:
         - Diane Degette, who received 73.8% of the vote and 272,892 number of votes.
 
 ## Summary
-DAI was successful in providing accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script by DAI's staff of experienced coders.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  And, DAI wrote the script so that it could easily be applied to other similar elections.  In today's world voter integrity is a necessity.
+DAI was successful in providing accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script by DAI's staff of experienced coders.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  And, DAI wrote the script so that it could easily be applied to other similar elections.  In today's world voter integrity is a necessity.  DAI is offering to present this script to other election boards for implmentation.
 
-DAI can meet with other election boards to modify the script to fit their needs.  There would very few changes to the scrpt.  Each election board would have their own raw data file with the individual votes.  The script would need to be changed to bring in the new election's data file.  And depending on what format the data is provided some small changes to the script may be needed so that the data is read from their database correctly.  
+DAI can meet with other election boards so that the script fully meets their needs.  The script would require very few changes.  Specifically the changes would inlcude: 1) data file - Each election board would have their own raw data file with the individual votes to provide; 2) reading the raw file - Each board may have different formats to their raw data and some small changes may be needed so that the data is read from this file correctly.  
 
-We would like the election committee to allow for presentations of this program to other election boards.     
+DAI is proposing a meeting with the election committee to allow for presentations of this program to other election boards.     
