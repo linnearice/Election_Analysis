@@ -21,7 +21,7 @@ A Colorado Board of Elections employee has given Data Analysis, Inc. ("DAI") the
 - Software:  Python 3.7.6 Visual Studio Code, 1.59.1
 
 ## Summary of Results
-The analysis of the election shows that:
+The analysis of the election shows:
 
 ### Total Votes
     - There were 369,711 total votes cast in the election.
@@ -49,10 +49,10 @@ The analysis of the election shows that:
         - Diane Degette, who received 73.8% of the vote and 272,892 number of votes.
 
 ## Summary
-DAI was successful in providing accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script by DAI's staff of experienced coders.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  And, DAI wrote the script so that it could easily be applied to other similar elections.  In today's world voter integrity is a necessity.  DAI is offering to present this script to other election boards for implmentation.
+DAI was successful in providing accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script created by DAI's staff of experienced coders.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  And, DAI wrote the script so that it could easily be applied to other similar elections.  In today's world voter integrity is a necessity.  DAI is offering to present this script to other election boards for implmentation.
 
-To that end, DAI can meet with other election boards so that the script fully meets their needs.  The script may require very few changes.  Specifically, a few modifications examples could inlcude: 
-    1. ***data source file*** - Each election board would provide their own raw data file with the individual votes.  The raw data may be presented in a different format from one      voting board to another.  In this event, a few tweaks to how the data is read into the script may be needed.
-    2. ***further data breakouts*** - A voting board may also need data drilled down to include voting prcincts as well by county and by candidate.  Each county consists of            multiple voting precints.  In this event, the script already developed for calculations by county can easily be modified for precints and then the prcinct code can be added        to the script for this additonal breakout.   
+To that end, DAI can meet with other election boards so that the script fully meets their needs.  The script may require very few changes.  Specifically, a few modification examples could inlcude: 
+    1. ***data source file*** - Each election board would provide their own raw data file with the individual votes.  The raw data may be presented in a different format from one voting board to another.  In this event, a few tweaks to how the data is read into the script may be needed.
+    2. ***further data breakouts*** - A voting board may also need data drilled down to include voting precincts as well as by county and by candidate.  Each county consists of  multiple voting precints.  In this event, the script already developed for counties can easily be modified for precints and then added to the script as an additonal breakout.   
 
 DAI is proposing a meeting with the election committee to allow for presentations of this program to other election boards.     
