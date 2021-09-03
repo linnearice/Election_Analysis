@@ -49,4 +49,8 @@ The analysis of the election shows that:
         - Diane Degette, who received 73.8% of the vote and 272,892 number of votes.
 
 ## Summary
-DAI was able to provide accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  However, DAI wrote the script so that it could easily be applied to other elections with only slight modifications.  The program would need to be changed to bring in the right data file from other election boards and depending on what format the data is provided some small changes to the script may needed so that the data is read from their database.  We would like the election committee to allow for presentations of this program to other election boards.     
+DAI was successful in providing accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script by DAI's staff of experienced coders.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  And, DAI wrote the script so that it could easily be applied to other similar elections.  In today's world voter integrity is a necessity.
+
+DAI can meet with other election boards to modify the script to fit their needs.  There would very few changes to the scrpt.  Each election board would have their own raw data file with the individual votes.  The script would need to be changed to bring in the new election's data file.  And depending on what format the data is provided some small changes to the script may be needed so that the data is read from their database correctly.  
+
+We would like the election committee to allow for presentations of this program to other election boards.     
