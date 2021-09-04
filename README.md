@@ -48,12 +48,10 @@ The analysis of the election shows:
         - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
     - The winner of the election was:
         - Diane Degette, who received 73.8% of the vote and 272,892 number of votes.
+   
+        The data presented to the Colorado Board of Elections in text format was:
         
-      The data presented to the Colorado Board of Elections in text format was:
-        
-        ![2021-09-03 (2)](https://user-images.githubusercontent.com/35401581/132076724-d845fa42-fc8b-4679-95ae-7fe6b90e64b0.png)
-
-## Summary
+        ![2021-09-03 (2)](https://user-images.githubusercontent.com/35401581/132076724-d845fa42-fc8b-4679-95ae-7fe6b90e64b0.png)## Summary
 DAI was successful in providing accurate and timely election results to the Colorado Board of Elections.  The election results were tallied based on DAI's development of a Python coding script created by DAI's staff of experienced coders.  DAI worked with the Colorado Board of Elections to develop the script to accomplish their needs.  And, DAI wrote the script so that it could easily be applied to other similar elections.  In today's world voter integrity is a necessity.  DAI is offering to present this script to other election boards for implementation.
 
 To that end, DAI can meet with other election boards so that the script fully meets their needs.  The script may require very few changes.  Specifically, a few modification examples could inlcude: 
