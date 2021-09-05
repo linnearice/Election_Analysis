@@ -63,7 +63,9 @@ To that end, DAI can meet with other election boards so that the script fully me
             county_name = row[1]
     
    2. ***further data breakouts*** - A voting board may also need data drilled down to include voting precincts as well as by county and by candidate.  Each county consists of multiple voting precints.  In this event, the script already developed for counties can easily be modified for precints and then added to the script as an additonal breakout.  For example,
-
+ 
+            # The county code can be changed to precinct
+            county_votes[county_name] +=1 
             precinct_votes[precinct_name] +=1
 
 DAI is proposing a meeting with the election committee to allow for presentations of this program to other election boards.     
